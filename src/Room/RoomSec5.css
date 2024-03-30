@@ -1,0 +1,54 @@
+.client{
+    text-align: center;
+   margin: 20px;
+   margin-top: 100px;
+   font-weight: bold;
+}
+.client1{
+    text-align: center;
+ margin: 20px;
+ padding: 20px;
+ font-size: 17px;
+ margin-bottom: 100px;
+ color: gray;
+}
+.BImg5{
+    background-image: url(./home-office-img.jpg);
+    width: 100%;
+    height: 960px;
+ 
+    container: fluid;
+}
+.LivingRoom{
+    width: 44%;
+    height: 560px;
+    background-color: white;
+    float: right;
+    margin-top: 400px;
+    margin-right: 100px;
+    padding: 60px;
+}
+.LivingRoom-content-parah{
+    color: gray;
+}
+.MinusIcon{
+    color: #d39e18;
+    width: 1.25em;
+    font-size: var(--e-icon-list-icon-size);
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+}
+.LivingRoom-button{
+    background-color: #EDB932;
+    border: #EDB932;
+    padding-top: 8px;
+    padding-right: 34px;
+    padding-bottom: 8px;
+    padding-left: 34px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+  }

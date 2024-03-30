@@ -1,0 +1,47 @@
+.sec8{
+    padding: 30px;
+}.Section8-button{
+    float: right;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+    margin-top: -50px;
+    margin-right: 50px;
+    background-color: #EDB932;
+}
+.butt{
+    float: right;
+  
+}
+.horizontal-line1{
+
+    width: 50%;
+}
+.Section8-content{
+ 
+    width: 50%;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+    .sec8{
+        margin: 10px;
+       
+     
+    }
+    .horizontal-line1{
+       margin: 0px;
+    }
+    .Section8-content{
+        font-size: 19px;
+       
+        width: 70%;
+    }
+    .Section8-button{
+        margin-top: 20px;
+        float: left;
+    }
+}

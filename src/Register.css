@@ -1,0 +1,308 @@
+/* 
+
+.customer {
+  padding: 40px;
+  padding-left: 80px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 15px;
+}
+
+.mt-4 {
+  margin-top: 18px;
+}
+
+.error-message {
+  color: red;
+}
+
+.buttonregs {
+  background-color:rgb(233, 184, 79);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  padding-left: 145px;
+  padding-right: 145px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.buttonregs:hover {
+  background-color:rgb(233, 184, 79);
+  color: white;
+}
+
+.cou-pen {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.pay-me-nt {
+  font-size: 24px;
+  color: #333;
+  margin-top: 30px;
+}
+
+.icon {
+  color: red;
+  margin-right: 10px;
+}
+
+.Information {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.Information1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.yu-res {
+  font-size: 24px;
+  color: #333;
+}
+
+.Subtot {
+  padding: 10px;
+}
+.container {
+  margin-top: 50px; /* Adjust as needed */
+/* }
+
+.card {
+  padding: 20px;
+}
+
+.customer {
+  width: 60%; /* Customer information takes up 60% of the page */
+  /* float: left; /* Float left to make it occupy 60% of the page */
+/* }
+
+.or-der {
+  width: 40%; /* Your Order takes up 40% of the page */
+  /* float: right; /* Float right to make it occupy 40% of the page */
+/* }
+@media (max-width: 767px) {
+  .customer {
+    padding: 10px;
+  }
+} */ 
+
+.form-container {
+  max-width: 780px;
+  margin-left: 20px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color:rgb(255, 252, 252);
+}
+
+.form-container h1 {
+
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="number"],
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/*   
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+/*   
+.form-container button:hover {
+  background-color: #0056b3;
+} */
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.firstName{
+  float: left;
+  padding-right:20px;
+
+}
+.lastName{
+  float: right;
+  margin-left: 0px;
+  padding-right: 4px;
+  
+}
+h4{
+  font-weight: bold;
+  font-size: 25px;
+}
+.Town{
+float: left;
+}
+.Country{
+  float: left;
+  margin-left: 40px;
+}
+.Zipcode{
+  float: right;
+  margin-left: 12px;
+}
+.Subtot{
+  padding-left: 50px;
+  padding-right: 70px;
+
+}
+.buttonregs {
+  /* padding: 10px 270px; */
+background-color: #f4bf42;
+  color: black;
+padding-left: 250px;
+padding-right: 250px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.buttonregs:hover {
+  background-color: #f4bf42;
+  color: white;
+}
+.Table2{
+float: right;
+}
+.customer{
+float: left;
+}
+.order {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+.buttonregs{
+  padding: 10px 76px;
+  border-radius: 0px;
+}
+.form-container{
+  align-items: center;
+  margin-left: 0px;
+  text-align: c;
+}
+.lastName{
+  float: left;
+  
+}
+.Country{
+  float: left;
+ 
+}
+.phoneNumber{
+float: left;
+padding-right: 125px;
+}
+.Zipcode{
+  float: left;
+  margin-left: 0px;
+}
+.StateName{
+  padding-left : 0px;
+  padding-right: 125px;
+}
+}
+.checkout-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.buttonreg {
+  padding: 10px 196px;
+background-color: #f4bf42;
+  color: black;
+
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonreg:hover {
+  background-color: #f4bf42;
+  color: white;
+}
+.Information{
+border-color: rgb(21, 161, 212);
+margin: 20px;
+padding: 0px 0px;
+border-radius: 5px ;
+}
+.Information1{
+border-color: rgb(21, 161, 212);
+margin: 15px;
+
+font-size: 14px;
+border-radius: 5px ;
+}
+.icon{
+color: rgb(21, 161, 212);
+}
+@media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+.buttonreg{
+  padding: 10px 105px;
+  border-radius: 0px;
+}
+
+}

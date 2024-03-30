@@ -1,0 +1,37 @@
+.Section10-content{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.horizontal-line1{
+
+    width: 100%;
+}
+
+.horizontal-line2{
+
+    width: 100%;
+}
+.line1 {
+    border-bottom: 1px solid ; /* Change color if needed */
+   margin: 0 5px;
+   color: #EDB932;
+   width: 10%;
+  }
+  .line2 {
+    border-bottom: 1px solid ; /* Change color if needed */
+margin-top: -60px;
+   color: rgb(204, 204, 204);
+   width: 100%;
+  }
+
+  @media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+    .Section8{
+        margin-left: -20px;
+    }.Section10-content{
+        margin-top: 30px;
+    }
+    .line2{
+        margin-top: 20px;
+
+    }
+  }

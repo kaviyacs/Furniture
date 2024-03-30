@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  top: 0;
+}
+  .Customize{
+    background-color:lightpink;
+    border-color: white;
+    cursor: pointer;
+    font-size: 20px;
+    width: 14%;
+    padding: 10px;
+ right: 0;
+   float: right;
+   margin-right: -222px;
+    z-index: 101;
+  }

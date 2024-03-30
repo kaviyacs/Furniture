@@ -1,0 +1,92 @@
+
+  
+  .cart-table {
+    margin-top: 20px;
+    position:absolute ;
+  }
+  
+  .total-cost {
+    margin-top: 20px;
+  }
+h3{
+  color: gray;
+  font-size: 15px;
+}
+.buttoninc{
+  padding: 5px 15px 5px 15px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 1px;
+  background-color: white;
+  
+}
+.buttoninc2{
+  padding: 5px 15px 5px 15px;
+  margin-top: -40px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 1px;
+  background-color: white;
+}
+:hover.buttoninc{
+  background-color: rgb(244, 169, 71);
+}
+.but{
+  float: right;
+  margin-top: 10px;
+}
+.XCircles{
+  color: grey;
+  background-color: white; 
+  float: left;
+
+}
+.subtot{
+  margin-top: -10px;
+}
+.col-md-8{
+  margin-top: 80px;
+
+}
+.col-md-4{
+  margin-top: 80px;
+ 
+}
+.table tr td{
+  border: 1px solid rgb(202, 193, 193);
+margin-top: 50px;
+align-items: center;
+border-spacing: 15px;
+padding-top: 10px;
+  position:relative ;     
+}
+:hover.XCircles{
+  color: black;
+  background-color: white;
+}
+button{
+  background-color: white;
+}
+.Buttoncheck{
+  background-color: rgb(234, 170, 86);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px;
+  border-color: rgb(244, 169, 71);
+  color: black;
+}
+:hover.Buttoncheck{
+  color: white;
+  background-color: rgb(233, 175, 99);
+  border-color: rgb(244, 169, 71);
+}
+.price{
+  margin-bottom: 10px;
+  margin-top: 100px;
+}

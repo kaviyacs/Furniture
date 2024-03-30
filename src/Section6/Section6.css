@@ -1,0 +1,144 @@
+
+.Card-group{
+    padding: 10px;
+}
+.Title{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+   
+}
+.Title:hover{
+    
+    visibility: visible;
+}
+.Card-icons-basket{
+    top: 10px;
+    font-size: 40px;
+    color: black;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black; 
+    float: right;
+  position: absolute;
+    visibility: hidden;
+}
+.card:hover .Card-icons-basket{
+    display:inline-block;
+    cursor: pointer;
+    color:black;
+    border-radius: 10px;
+    right: 0;
+    visibility: visible;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    padding: 9px;
+    align-self: center;
+    font-size: 35px;
+
+} 
+.Card-icons-eye{
+    top: 10px;
+    font-size: 40px;
+    color: black;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: black; 
+    float: right;
+    position: absolute;
+    visibility: hidden;
+}
+.card:hover .Card-icons-eye{
+    display:inline-block;
+    cursor: pointer;
+    color:black;
+    border-radius: 10px;
+    right: 0;
+    margin-top: 50px;
+    visibility: visible;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    padding: 9px;
+    align-self: center;
+    font-size: 35px;
+} 
+.Cardname{
+    color:#b58714 ;
+    text-align: center;
+    cursor: pointer;
+}
+.Price{
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+}
+.Cards{
+    padding: 30px;
+    margin: 80px;
+    margin-top: 10px;
+    z-index: 1;
+border-color: white;
+    top: 10px;
+    right: 10px;
+border: none;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    border: none !important;
+    margin: 10px;
+}
+.card:hover{
+    background-color:rgb(255, 254, 254);
+border: 1px;
+box-shadow: 7px 7px 7px 7px rgb(235, 232, 232); 
+border-radius: 0;
+
+
+}
+.sale{
+    padding: 0px;
+    border-radius: 0px;
+}
+.list{
+    list-style-type: none;
+    list-style: none;
+}
+.card{
+    list-style-type: none;
+}
+@media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+    
+}
+
+

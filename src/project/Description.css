@@ -1,0 +1,661 @@
+.card-description{
+    height:420px !important;
+    border:none !important;
+}
+.card-descriptions{
+    height: 420px !important;
+    border: 1px solid #afa7a7!important;
+    border-color: rgb(213 210 210) !important;
+}
+.card-context{
+    text-align: left;
+    margin-left: 155px;
+}
+.card-content{
+    font-size: 20px;
+    font-weight: 400;
+    color: #808080;
+    width: 576px;
+    margin-left: 63px;
+    margin-top: 20px;
+}
+.description-row{
+    padding: 0;
+    margin-top: 0px !important;
+    border:none;
+}
+.card-review{
+    font-size: 13px !important;
+    margin-left: 120px;
+    margin-top: 32px;
+    text-align: left;
+}
+.review-title{
+    font-size: 21px !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+    margin-top: 34px !important;
+    text-align: left;
+    margin-left: 158px;
+}
+.review-text{
+    font-style: inherit !important;
+    font-size: 20px !important;
+    font-weight: inherit;
+    color: #897D7D;
+    text-align: left;
+    margin-left: 156px;
+}
+.review-rating{
+    text-align: left;
+    margin-left: 155px;
+}
+.review-column{
+    margin-right: 300px !important;
+}
+.review-comment{
+    margin-left: 162px;
+    width: 1168px !important;
+    height: 69px;
+}
+.review-column{
+    margin-left: -455px !important;
+}
+.form-check-input{
+    margin-left:168px !important;
+}
+.form-check-label{
+    margin-right: 587px !important;
+}
+.submit-button{
+    width: 100px !important;
+    margin-left: 150px !important;
+    border-radius: 0px !important;
+}
+.review-form-control{
+    margin-left: 150px !important;
+    width: 460px !important;
+}
+.review-card{
+    padding: 10px;
+    border: none !important;
+}
+.review-cards{
+    border:1px solid rgb(213 210 210) !important;
+    height: 620px !important;
+}
+.review-star-rating{
+    color:#ffff00
+}
+.description-tab{
+    color:#000 !important;
+    font-weight: 500 !important;
+}
+.feature-list{
+    text-align: left;
+    margin-left: 60px;
+}
+.feature-lists{
+    text-align: left;
+    margin-left: 60px;
+}
+.card-tab{
+    color: #000 !important;
+}
+.description-tab:hover{
+    color:rgb(155, 153, 153)
+}
+.card-tab{
+    border-top:1px solid #c5bcbc6e !important;
+    background-color: #ffffff;
+    margin-left: 14px;
+    width:98% !important;
+    /* border:none !important;  */
+}
+.card-validation{
+    margin-right: 335px;
+}
+.checkbox-validation{
+    margin-right: 48px;
+    margin-left: -41px;
+}
+.card-tab{
+    height: 87px;
+    border-top:2px solid #d8dfe5 !important;
+}
+/* 
+ .nav-link.active{
+    border-top: 5px solid #000 !important;
+    border-radius: 0px !important;
+} */
+.description-title{
+    margin-top: 55px !important;
+    font-family:'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.description-list{
+    font-size: 19px;
+    font-weight: 400;
+}
+.card-icons{
+    text-align: left;
+    margin-left: 60px;
+}
+.card-list{
+    text-align: left;
+    margin-left: 60px;
+}
+.tab-icons{
+    text-align: left;
+    margin-left: 60px;
+}
+.instruction-list{
+    text-align: left;
+    margin-left: 60px;
+}
+.card-instruction-list{
+    text-align: left;
+    margin-left: 60px;
+}
+.card-description-list{
+    margin-right: 58px;
+}
+.card-instruction-point{
+    text-align: left;
+    margin-left: 60px;
+}
+
+@media screen and (max-width:1024px) {
+    .description-col{
+        width:482px;
+    }
+    .card-tab{
+        width:976px;
+    }
+    .card-content{
+        width:380px;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .features-details{
+        width:492px;
+    }
+    .features-detail{
+        width:500px;
+        margin-left: 20px;
+    }
+    .review-card{
+        border: none !important
+    }
+    .review-title{
+        width: 454px;
+        margin-left: 82px !important;
+    }
+    .review-text{
+        width: 630px;
+        margin-left: 86px;
+    }
+    .review-rating{
+        margin-left: 86px;
+        width:220px;
+    }
+    .review-column{
+        margin-left: 84px !important;
+        text-align: left;
+    }
+    .review-comment{
+        margin-left: 94px !important;
+        width: 84% !important;
+    }
+    .card-column-label{
+        margin-right: 231px !important;
+    }
+    .review-form-control{
+        margin-left: 78px !important;
+        width: 350px !important;
+    }
+    .card-form-review{
+        width: 930px;
+    }
+    /* #formGridCheckbox{
+        width: 1362px;
+    } */
+    .form-check-input{
+        margin-left: 105px !important;
+    }
+    .form-check-label{
+        margin-right: 166px !important;
+        text-align: left;
+    }
+    .submit-button{
+        margin-left: 93px !important;
+    }
+    .review-cards{
+        height: 610px !important;
+        margin: 15px;
+    }
+    .card-context{
+        margin-left: 87px;
+    }
+    .card-validation{
+        margin-left: 77px;
+    }
+}
+@media screen and (max-width:768px) {
+    .card-form-review{
+        width: 630px !important;
+    }
+    .description-col {
+        width: 713px;
+    }
+    .description-column{
+        width: 710px;
+    }
+    .review-title{
+        width: 454px;
+        margin-left: 58px !important;
+    }
+    .review-column-grid{
+
+    }
+    .card-tab{
+        width:721px;
+    }
+    .card-content{
+        width: 620px;
+    }
+    .card-context {
+        margin-left: 64px;
+    }
+    .description-title{
+        margin-left: 185px;
+    }
+    .features-detail{
+        margin-left: 65px;
+    }
+    .features-details{
+        margin-left: 40px;
+    }
+    .card-validation{
+        margin-right: 185px;
+    }
+    .review-form-control{
+        width: 237px !important;
+        margin-left: 64px !important;
+    }
+    .card-review-label{
+        margin-left: 77px;
+    }
+    .review-text{
+        margin-left: 59px;
+    }
+    .review-rating{
+        margin-left: 62px;
+    }
+    .review-column{
+        margin-left: 76px !important;
+    }
+    .review-comment{
+        margin-left: 76px !important;
+    }
+    .form-check-input{
+        margin-left: 82px !important;
+    }
+    .submit-button {
+        margin-left: 63px !important;
+    }
+    .form-check-label {
+        margin-right: -29px !important;
+    }
+}
+@media screen and (max-width:425px) {
+    .review-title{
+        width: 327px;
+       text-align: left;
+       margin-left: 20px !important;
+    }
+    .card-context{
+       margin-left: 22px;
+       width: 122px !important;
+}
+    .description-col{
+        width: 400px;
+    }
+    .description-title{
+        text-align: center;
+        margin-left: 14px;
+    }
+    .card-description{
+        display: none !important;
+    }
+    .features-details{
+        margin-left: 43px;
+        text-align: left;
+        width: 357px;
+    }
+    .features-detail{
+        margin-left: 50px;
+        text-align: left;
+        width: 348px;
+    }
+    .card-content{
+        width: 357px;
+        margin-left: 28px;
+        font-size: 15px;
+    }
+    .description-list{
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .description-column{
+        width: 424px;
+    }
+    .review-cards{
+        height: 720px !important;
+    }
+    .card-form-review{
+        width: 372px !important;
+    }
+    .review-form-control{
+        width: 324px !important;
+        margin-left: 23px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+        margin-left: 17px;
+        font-size: 19px !important;
+        width: 95%;
+    }
+    .review-rating{
+        margin-left: 19px;
+    }
+    .review-column{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 35px !important;
+        width: 312px !important;
+    }
+    .form-check-input{
+        margin-left: 38px !important;
+    }
+    .form-check-label{
+        margin-right: 24px !important;
+        width: 90%;
+       font-size: 13px;
+       margin-left: 38px;
+    }
+    .submit-button{
+        margin-left: 27px !important;
+    }
+    .card-validation{
+        margin-right: 203px;
+        margin-left: -72px;
+    }
+    .card-tab {
+        width: 396px !important;
+    }
+    .tab-icons{
+        width:252px;
+        margin-left: 1px;
+    }
+    .feature-lists{
+        width:342px;
+        margin-left: 1px;
+    }
+    .instruction-list{
+        width:229px;
+        margin-left: 1px;
+    }
+    .card-instruction-list{
+        width: 265px;
+        margin-left: 1px;
+    }
+    .card-instruction-point{
+        width: 220px;
+        margin-left: 1px;
+    }
+    .card-icons{
+        margin-left: 1px;
+    }
+    .feature-list{
+        margin-left: 1px;
+    }
+    .card-list{
+        margin-left: 1px;
+    }
+
+}
+@media screen and (max-width:375px) {
+    .review-title{
+        width: 292px;
+    }
+    .review-cards{
+        height: 735px !important;
+    }
+    .card-form-review{
+        width: 322px !important;
+    }
+    .review-form-control{
+        width: 271px !important;
+        margin-left: 18px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+        margin-left: 19px;
+        font-size: 19px !important;
+        width: 83%;
+    }
+    .features-detail{
+        margin-left: 30px;
+    }
+    .features-details{
+        width: 276px;
+        margin-left: 28px;
+        font-size: 15px;
+    }
+    .review-rating{
+        margin-left: 21px;
+    }
+    .review-column{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 32px !important;
+        width: 268px !important;
+    }
+    .form-check-input{
+        margin-left: 38px !important;
+    }
+    .form-check-label{
+        margin-right: 24px !important;
+        width: 90%;
+       font-size: 13px;
+       margin-left: 38px;
+    }
+    .submit-button{
+        margin-left: 22px !important;
+    }
+    .description-col{
+        width: 358px;
+    }
+    .description-title{
+        text-align: center !important;
+        margin-left: 40px;
+    }
+    .card-content{
+        width: 314px;
+        margin-left: 28px;
+        font-size: 15px;
+    }
+    .description-list{
+        font-size: 14px;
+        line-height: 1.8;
+    }
+    .card-tab{
+        width: 342px !important;
+    }
+    .card-validation{
+        margin-left: -37px;
+    }
+    .products-detail-card {
+        height: 520px !important;
+    }
+    .tab-icons{
+        width:252px;
+        margin-left: 10px;
+    }
+    .feature-lists{
+        width:342px;
+        margin-left: 10px;
+    }
+    .instruction-list{
+        width:229px;
+        margin-left: 10px;
+    }
+    .card-instruction-list{
+        width: 265px;
+        margin-left: 10px;
+    }
+    .card-instruction-point{
+        width: 220px;
+        margin-left: 10px;
+    }
+    .card-icons{
+
+    }
+    .feature-list{
+
+    }
+    .card-list{
+        
+    }
+    .description-col{
+
+    }
+}
+@media screen and (max-width:320px) {
+    .review-title{
+        width: 236px;
+        margin-left: 31px !important;
+    }
+    .review-cards{
+        height: 735px !important;
+    }
+    .card-form-review{
+        width: 256px !important;
+    }
+    .review-form-control{
+        width: 179px !important;
+        margin-left: 27px !important;
+    }
+    .card-review-label{
+        margin-left: 0px;
+    }
+    .review-text{
+       margin-left: 29px;
+       font-size: 19px !important;
+       width: 84%;
+       text-align: justify;
+    }
+    .feature-lists{
+        width: 246px;
+    }
+    .review-rating{
+        margin-left: 28px;
+    }
+    .review-column{
+        margin-left: 36px !important;
+    }
+    .review-comment{
+        margin-left: 40px !important;
+        width: 174px !important;
+    }
+    .form-check-input{
+        margin-left: 46px !important;
+    }
+    .submit-button{
+        margin-left: 45px !important;
+        font-size: 10px !important;
+    }
+    .description-col{
+        width: 304px;
+    }
+    .description-title{
+        text-align: center !important;
+        margin-left: 50px;
+        width: 229px;
+    }
+    .card-content{
+        width: 255px;
+        margin-left: 28px;
+        font-size: 15px;
+    }
+    .feature-list{
+        margin-right: 100px;
+        width: 253px;
+    }
+    .features-detail{
+        text-align: left;
+        margin-left: 21px;
+        width: 285px;
+    }
+    .card-icons{
+        margin-right: 35px;
+    }
+    .card-list{
+        margin-right: 70px;
+    }
+    .card-context {
+    margin-left: 31px;
+    width: 120px !important;
+    }
+    .card-validation {
+    margin-left: 30px;
+    }
+    .card-tab {
+        width: 290px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .form-check-label{
+        margin-right: 24px !important;
+        width: 90%;
+       font-size: 13px;
+       margin-left: 45px;
+    }
+    .tab-icons{
+        width:252px;
+        margin-left: 1px;
+    }
+    .feature-lists{
+        width:342px;
+        margin-left: 1px;
+    }
+    .instruction-list{
+        width:229px;
+        margin-left: 1px;
+    }
+    .card-instruction-list{
+        width: 265px;
+        margin-left: 1px;
+    }
+    .card-instruction-point{
+        width: 220px;
+        margin-left: 1px;
+    }
+    .feature-list{
+        width: 246px !important;
+    }
+    .card-list{
+        
+    }
+    .description-col{
+
+    }
+}

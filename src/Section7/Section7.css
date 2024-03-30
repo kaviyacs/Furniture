@@ -1,0 +1,87 @@
+.Section7{
+    width: 100%;
+    /* background-color: whitesmoke; */
+
+}
+.Section7-content{
+   
+
+    position: relative;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    size: 80px;
+    height: 420px;
+    width: 100%;
+    float: right;
+    margin-right: -140px;
+}
+.Section7-c{
+    font-weight: bold;
+}
+.Section7-content-parah{
+    font-size: 16px;
+    color: gray;
+}
+.Section7-img{
+    background-size: cover !important;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: #EDB932;
+    border: #EDB932;
+  
+  }
+  .Section7-button{
+    background-color: #EDB932;
+    border: #EDB932;
+    padding-top: 8px;
+    padding-right: 34px;
+    padding-bottom: 8px;
+    padding-left: 34px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  @media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+    .Section7-c{
+        float: left;
+        padding-bottom: 10px;
+        margin: 0px;
+        font-size: 24px;
+        text-align: center;
+        margin-top: -200px;
+       
+    }
+    .Section7-content-parah{
+        margin-top: -150px;
+    }
+    .Section7{
+        padding-right: 20px;
+        margin-left: -140px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        width: 100%;
+   }
+    .Section7-button{
+        margin-top: -80px;
+    }
+    .Section7-img{
+        width: 100%;
+        height: 400px;
+        margin-left: 140px;
+        padding: 0px;
+        margin-bottom: 0px;
+        float: left;
+        margin-top: -100px;
+        background-color: white;
+    }
+    .Section7-content{
+        height: 150px;
+    }
+  }

@@ -1,0 +1,59 @@
+.Headersection{
+ 
+    position: fixed;
+    margin: 1px;
+    justify-content:space-around;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: transparent !important;
+    /* background-color: red !important; */
+      transition:background 0.5s ease;
+  }
+  .ms-auto{
+    padding-right: 60px;
+    text-decoration: none;
+   }
+   a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  .Home{
+    margin-left: 20px;
+    color: black;
+   }
+   .Basket
+   {
+     color: black;
+     margin-top: 0px;
+     margin-left: 25px;
+     font-size: 20px;
+   }
+  .Logo{
+    max-width: 140px;
+  }
+  .Bank{
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-bottom: 9px;
+    color: #EDB932;
+  }
+  @media only screen and (max-width: 425px) and (min-width: 375px)  , (max-width: 768px){
+    .Headersection{
+      width: 99%;
+      font-size: 10px;
+   
+    }
+    .Home{
+      font-size: 20px;
+      padding-top: 20px;
+    }
+  }

@@ -1,0 +1,67 @@
+.Section5{
+    width: 100%;
+    padding-top: 0px;
+    padding-left: -20px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.horizontal-line1 {
+ 
+    align-items: center;
+    margin-top: 60px;
+
+    width: 100%;
+  }
+  .line1 {
+     border-bottom: 1px solid ; /* Change color if needed */
+    margin: 0 5px;
+    color: #EDB932;
+    width: 20%;
+   }
+  .Right-text1{
+    margin-left: 8px;
+    color: #EDB932;
+  }
+  .Section5-button{
+    float: right;
+  }
+  button{
+    background-color: #EDB932;
+    border: #EDB932;
+  
+  }
+  .Section5-button{
+    background-color: #EDB932;
+    border: #EDB932;
+    padding-top:10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    margin-top: -140px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    float: right;
+  }
+  .Section5-content{
+    margin-top: 30px;
+    font-style: inherit;
+    font-size:40px;
+    font-weight: bold;
+  }
+  @media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+    .Section5-content{
+      font-size: 28px;
+      margin: 20px;
+    }
+    .Section5-button{
+      margin-top: -70px;
+      align-items: center;
+      font-size: 12px;
+      float: left;
+      margin-left: 20px;
+    }
+  }

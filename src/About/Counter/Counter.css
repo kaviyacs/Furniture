@@ -1,0 +1,52 @@
+.Counter1{
+   margin-left: 160px;
+   font-size: 50px;
+   font-weight: bold;
+   margin-top:0px;
+   color: gray;
+}
+.Counter2{
+   margin-left: 200px;
+   font-size: 50px;
+   flex-direction: row;
+   margin-top: -130px;
+}
+.Counter3{
+   margin-left: 400px;
+   font-size: 50px;
+   flex-direction: row;
+   margin-top: -130px;
+}
+.Counter4{
+   margin-left: 600px;
+   font-size: 50px;
+   flex-direction: row;
+   margin-top: -130px;
+}
+.CounterCont0{
+   color:black;
+}
+.CounterCont1{
+   margin-left:200px ;
+   color: black;
+}
+.CounterCont2{
+   margin-left:400px ;
+   color: black;
+}
+.CounterCont3{
+   margin-left:600px ;
+   color: black;
+}
+.AboutCouting{
+   background-color: white;
+   width: 80%;
+   height: 200px;
+   margin: 20px;
+   margin-left: 120px;
+   position: absolute;
+   margin-top: 1550px;
+}
+.AboutCount{
+   flex-direction: row;
+}

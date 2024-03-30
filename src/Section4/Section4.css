@@ -1,0 +1,73 @@
+.Section4{
+    width:100%;
+    height: 400px;
+    opacity: 0.8;
+    color: black;
+    stroke-opacity: rgb(51, 46, 46);
+    background-color: #00000085;
+
+    position:absolute;
+    width:100%; height:100%;
+    
+    background:#05050596;
+   
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.h1{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 350px;
+    color: white;
+    padding-left: 20px;
+  
+  }
+.h1:hover{
+  color:  #EDB932;
+  z-index: 1;
+}
+.image {
+  position:relative;
+  height:400px;
+}
+.image img {
+  width:100%;
+  vertical-align:top;
+}
+.image:after {
+  content:'\A';
+  position:absolute;
+  width:100%; height:100%;
+
+  background:#05050596;
+  opacity:0.9;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.image:hover:after {
+  opacity:1;
+}
+.lastImg img{
+  width: 95% !important;
+}
+.lastImg:after {
+  content:'\A';
+  position:absolute;
+  width:95%; height:100%;
+
+  background:#05050596;
+  opacity:0.9;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}.Room{
+  margin-top: -10px;
+
+  top: 0;
+}
+@media only  screen and (max-width: 425px) and (min-width: 375px) , (max-width: 770px)  {
+
+  .Section4rooms{
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+}
